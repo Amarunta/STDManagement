@@ -8,3 +8,5 @@ In essence, with this program you should be able to:
 - Update student records that are stored in the database directly.
 - Search for a student record.
 - List all student records.
+
+A user interface is planned for the near future, which will make the program much more accessible. This will be done using the tkinter library.
