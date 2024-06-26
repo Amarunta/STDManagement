@@ -54,7 +54,7 @@ def update_student(id_num):
                 print("You can't change the ID-number. Try something else.")
                 continue
             elif command == "Done":
-                main()
+                return True
             else:
                 print("This field does not exist. Try again.")
                 continue
@@ -70,7 +70,7 @@ def update_student(id_num):
             # Call the add_student function
             add_student(name, age, grade, subjects)
         elif command == "n":
-            main()
+            return True
 
 
 def delete_student(id_num):
@@ -88,7 +88,7 @@ def delete_student(id_num):
         if command == "Yes":
             del student_records[id_num]
         elif command == "No":
-            main()
+            return True
         else:
             print("Try again.")
     else:
@@ -118,7 +118,7 @@ def list_all_students():
         print("There are no student records. Would you like to return to the main menu?")
         choice = input("Yes/No: ")
         if choice == "Yes":
-            main()
+            return True
         elif choice == "No":
             exit()
     else:
