@@ -9,4 +9,4 @@ In essence, with this program you should be able to:
 - Search for a student record.
 - List all student records.
 
-A user interface is planned for the near future, which will make the program much more accessible. This will be done using the tkinter library.
+A user interface is planned for the near future, which will make the program much more accessible - this will be done using the tkinter library. The search function in its current state is also barebones, which is why I'm considering writing a more indepth algorithm for it.
